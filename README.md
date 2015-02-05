@@ -12,7 +12,8 @@ You must use a [JSON](json.org) configuration file to store your FB email, passw
 
 ### Running the Pokebot
 Once you have installed PhantomJS and updated your configuration file, you are ready to run the bot. I recommend creating a [screen instance](http://linux.die.net/man/1/screen) on a server and allowing the bot to run from there. Once you are ready to run the bot, simply enter the following command:
-    $ phantomjs fbpoke.js
+	$ phantomjs fbpoke.js 
+	
 
 ## Disclaimers
 Note that you are storing your FB password in plaintext in the configuration file. I haven't had to time to implement a more secure solution and I do not assume any responsibility for lost or stolen passwords. 
