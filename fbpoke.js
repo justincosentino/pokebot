@@ -1,5 +1,6 @@
 var fs = require('fs');
 
+// TODO: Update the filepath to your config file.
 var content = fs.read('config.json');
 var config = JSON.parse(content);
 
