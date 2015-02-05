@@ -1,0 +1,10 @@
+{
+	"_comment": ["fbEmail: Email account associated with FB account",
+				 "fbPass:  Password to FB account",
+				 "minTime: Minimum amount of time prior to checking for more pokes (in minutes)",
+				 "maxTime: Maximum amount of time prior to checking for more pokes (in minutes)"],
+	"fbEmail": "", 
+    "fbPass": "",
+    "minTime": 0,
+    "maxTime": 0
+}
